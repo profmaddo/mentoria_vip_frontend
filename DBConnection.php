@@ -12,8 +12,8 @@ class DBConnection
 {
 
     private $_dbHostname = "localhost";
-    private $_dbName = "u576269954_backcp_newweb";
-    private $_dbUsername = "u576269954_backcp_apiweb";
+    private $_dbName = "u576269954_front_newweb";
+    private $_dbUsername = "u576269954_front_apiweb";
     private $_dbPassword = "Fadac0cada!2023cp";
     private $_con;
 
