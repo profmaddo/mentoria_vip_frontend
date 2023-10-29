@@ -12,9 +12,9 @@ class DBConnection
 {
 
     private $_dbHostname = "localhost";
-    private $_dbName = "u576269954_pxpybr_newweb";
-    private $_dbUsername = "u576269954_pxpybr_apiweb";
-    private $_dbPassword = "Fadac0cada!2023";
+    private $_dbName = "u576269954_backcp_newweb";
+    private $_dbUsername = "u576269954_backcp_apiweb";
+    private $_dbPassword = "Fadac0cada!2023cp";
     private $_con;
 
     public function __construct()
