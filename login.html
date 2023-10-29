@@ -28,7 +28,7 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            document.getElementById('indicativo').addEventListener('input', function (e) {
+            document.getElementById('login').addEventListener('input', function (e) {
                 this.value = this.value.replace(/[^A-Z1-9]/g, '');
             });
         });
@@ -41,7 +41,7 @@
         <h2>Área do Usuário</h2>
         <form id="login-form" action="validar_acesso.php" method="post">
             <p>
-                <input type="text" id="indicativo" name="indicativo" placeholder="Indicativo" required><i
+                <input type="text" id="login" name="login" placeholder="Login" required><i
                     class="validation"><span></span><span></span></i>
             </p>
             <p>
