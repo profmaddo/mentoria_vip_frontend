@@ -1,0 +1,3 @@
+db senha Fadac0cada!2023cp
+db name u576269954_backcp_newweb
+db user u576269954_backcp_apiweb
