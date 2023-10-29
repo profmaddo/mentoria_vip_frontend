@@ -7,11 +7,9 @@
 
     <style>
 
-        #mentoria {
-            background: #3ca9e2;
-            margin-top: 120px;
-            margin-left: 80px;
-            margin-right: 80px;
+        #mentoria{
+            background: blanchedalmond;
+            margin-top: 200px;
         }
 
         #botao {
@@ -21,17 +19,21 @@
             margin-right: 16px;
             margin-bottom: 16px;
             font-style: oblique;
-            font-family: "Roboto Light"
+
+        }
+
+        #label_custom{
+            background: #cc1e2b;
         }
 
     </style>
 </head>
 <body>
-<div id="mentoria">
+<div>
     <h2>Cadastro de Novo Cliente</h2>
-    <form>
+    <form id="mentoria">
         <div>
-            <label for="nome">Nome:</label>
+            <label for="nome" id="label_custom">Nome:</label>
             <input type="text" id="nome" name="nome" required>
         </div>
         <div>
